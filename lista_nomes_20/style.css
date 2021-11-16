@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.header {
+    height: 100px;
+    background-color: #eee;
+}
+.container {
+    display: flex;
+    height: calc(100vh - 200px);
+    background-color: aquamarine;
+}
+.body {
+    flex: 3;
+    padding: 20px;
+    text-align: center;
+}
+.body input {
+    padding: 5px;
+    margin: 5px;
+    width: 30%;
+}
+.sidebar {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: #eee;
+}
+.sidebar ul {
+    padding: 10px;
+}
+.footer {
+    height: 100px;
+    background-color: brown;
+}
